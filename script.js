@@ -93,11 +93,6 @@ class Contacts {
 
 class ContactsApp extends Contacts {
 
-
-    // constructor(){
-    //     super();
-
-    // }
     data = this.get();
 
     modalEdit(id, data = {}) {
